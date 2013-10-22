@@ -1,5 +1,8 @@
 <h1>AngularJS directive</h1>
-
+![Alt text](/img/first.png "Optional title")
+![Alt text](/img/loading.png "Optional title")
+![Alt text](/img/success.png "Optional title")
+![Alt text](/img/error.png "Optional title")
 
 <h2> Perks </h2>
 * Prevent user for monkey clicking the link
