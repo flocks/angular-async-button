@@ -1,4 +1,9 @@
 <h1>AngularJS directive</h1>
+
+At work, I learnt you always have to tell the user what's happening. Sometimes, you app contains buttons, or links which trigger
+in ajax actions in background. If you don't tell the user what's happening ( loading, success, or error ), he will monkey click
+the button until he sees something has happened. This directive fills all the needs.
+
 ![Alt text](/img/first.png "Optional title")
 ![Alt text](/img/loading.png "Optional title")
 ![Alt text](/img/success.png "Optional title")
