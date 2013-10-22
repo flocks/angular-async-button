@@ -12,7 +12,7 @@
 
 <h2>Usage</h2>
 ````html
- <async function="getData()" handle-error="handle()"><button class="btn normal">open popup</button></async>
+ <async function="getData()" handle-error="handle()"><button class="btn normal">do something</button></async>
 ````
 
 The directive takes two parameters
