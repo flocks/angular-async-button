@@ -14,7 +14,6 @@ app.controller('MainCtrl', function($scope, $q, $timeout) {
   }
 
   $scope.handle = function(err) {
-    // handling error message
     return "test";
   }
 

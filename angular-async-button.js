@@ -1,24 +1,5 @@
 var app = angular.module('plunker', []);
 
-app.controller('MainCtrl', function($scope, $q, $timeout) {
-  $scope.name = 'World';
-  
-  $scope.getData = function() {
-    var deferred = $q.defer();
-    
-    $timeout(function() {
-      deferred.resolve();
-    }, 1000);
-    
-    return deferred.promise;
-  }
-
-  $scope.handle = function(err) {
-    // handling error message
-    return "test";
-  }
-
-});
 
 
 app.directive('async', function($compile) {
@@ -64,8 +45,6 @@ app.directive('async', function($compile) {
         })
       });
       element.append($compile(tpl)(scope));
-
-
 
     }
   }
