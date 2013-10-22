@@ -7,7 +7,7 @@ app.directive('async', function($compile) {
     restrict : 'E',
     scope: {
       method : "&function",
-      handleError : '&error'
+      handleError : '&'
     },
     link: function(scope, element, attrs) {
       var isLaunch = false;
