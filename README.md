@@ -1,14 +1,13 @@
-AngularJS directive
+<h1>AngularJS directive</h1>
 
 
-
-**** Perks 
+<h2> Perks </h2>
 * Prevent user for monkey clicking the link
 * display a loader element when loading
 * display a success and error signal when callback is finished
-* 
 
-**** Usage
+
+<h2>Usage</h2>
 ````html
  <async function="getData()" handle-error="handle()"><button class="btn normal">open popup</button></async>
 ````
